@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Amaranth', sans-serif;
+}
+h2 {
+    font-family: 'Amiko', sans-serif;
+    font-size: 200%;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+div {
+    width: 70%;
+    height: 150px;
+    margin: 10%;
+}
+button{
+    background-color:#AEE1D2;
+    text-align: center;
+    font-size: 200%;
+    padding: 20px;
+    cursor: pointer;
+    margin: 80px;
+    
+
+}    
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
+.buttoN:hover span{
+    padding-right: 40px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+img {
+    width: 30%;
+    height: 600;
+    border-radius: 0%;
+}
+body{
+    display:flex;
+    text-align:center;
+    background-image: url(./assest/imagens/fundo\ canva.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 50% 100%;
+    margin-inline-end: 50%;
+    margin: 10px 1px 1px 50%;
+}
